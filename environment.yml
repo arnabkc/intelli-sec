@@ -1,0 +1,31 @@
+name: dga-detection
+channels:
+  - conda-forge
+
+dependencies:
+  # Core scientific python
+  - numpy
+  - matplotlib
+  - python>=3.6
+  - pyqt
+  - matplotlib
+  - seaborn
+  - pip
+  - pandas
+
+  # Natural language processing
+  - tweepy
+  - nltk
+  - textblob
+
+  # Jupyter Environment
+  - autopep8
+  - notebook
+  - ipython
+  - jupyter_contrib_nbextensions
+  - jupyterlab
+  - nb_conda
+
+  - pip:
+      - scikit-learn
+      - drill
